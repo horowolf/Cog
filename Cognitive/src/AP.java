@@ -93,5 +93,23 @@ public class AP {
 	private static void master(float minsup, float minconf, String input, String output) {
 		
 	}
+	
+	private static String timeLength (String start, String end) { // 1, 2
+		String tl = "";
+		
+		return tl;
+	}
+	
+	private static String timeGrouping (String time) { //1
+		String tl = "";
+		
+		return tl;
+	}
+	
+	private static String trimTime (String time) { // for timeLenght and timeGrouping use.
+		String t = "";
+		
+		return t;
+	}
 
 }
