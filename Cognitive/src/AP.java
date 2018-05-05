@@ -1,11 +1,9 @@
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.Objects;
 import java.util.Scanner;
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
+
 
 /*
 0:Unique Key
@@ -110,6 +108,20 @@ public class AP {
 		String t = "";
 		
 		return t;
+	}
+	
+	class HTreeNode {
+		String key;
+		int count = 1;
+		//hash<HTN>
+		HTreeNode ht; //XX
+		protected HTreeNode (String k) {
+			key = k;
+		}
+		protected void addHTN (HTreeNode htn) {
+			
+		}
+		
 	}
 
 }
